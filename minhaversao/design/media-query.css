@@ -1,2 +1,64 @@
 @charset "UTF-8";
 
+@media screen and (min-width:768px) and (max-width:992px) {
+
+body {
+    background-image: linear-gradient(to top, aquamarine, lightblue);
+}
+
+section#login {
+    width: 80vw;
+    height: 300px;
+}
+
+section#login > div#imagem {
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-position: left;
+}
+
+section#login > div#formulario {
+    float: right;
+    width: 70%;
+}
+
+div.campo > input {
+    width: 100%;
+}
+    
+}
+
+@media screen and (min-width:992px) {
+    body {
+        background-image: url(/minhaversao/imagens/fundocir.jpg);
+    }
+
+    section#login {
+        width: 90vw;
+    }
+
+    section#login > div#imagem {
+        float: right;
+        width: 40%;
+        height: 100%;
+        background-position: left center;
+    }
+
+    section#login > div#formulario {
+        float: left;
+        width: 60%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+
+    div.campo > input {
+        width: 100%;
+    }
+}
